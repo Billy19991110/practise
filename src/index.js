@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -22,8 +22,13 @@ import reportWebVitals from './reportWebVitals';
 // 	}
 // 	return output;
 // }
-const getValue = (event) => {
-	console.log(event.target.value)
+// const getValue = (event) => {
+// 	console.log(event.target.value)
+// }
+function App() {
+	return (
+		<button>大家好</button>
+	);
 }
 
 ReactDOM.render(
@@ -33,10 +38,13 @@ ReactDOM.render(
 	// <div>
 	// 	{multiButton()}
 	// </div>,
+	// <div>
+	// 	<button value="true" onClick={getValue}>
+	// 		按下以取得數值
+	// 	</button>
+	// </div>,
 	<div>
-		<button value="true" onClick={getValue}>
-			按下以取得數值
-		</button>
+		<App />
 	</div>,
 	document.getElementById('root')
 );
