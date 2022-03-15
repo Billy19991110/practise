@@ -4,10 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const testFunction = () => {
+  return (
+    <div>
+      <button>大家好</button>
+      <h1>我不好</h1>
+    </div>
+  );
+}
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  testFunction(),
   document.getElementById('root')
 );
 
