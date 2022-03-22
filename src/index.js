@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -25,28 +25,40 @@ import reportWebVitals from './reportWebVitals';
 // const getValue = (event) => {
 // 	console.log(event.target.value)
 // }
-function App() {
-	return (
-		<button>大家好</button>
-	);
-}
+// function App() {
+//   return (
+//     <button>大家好</button>
+//   );
+// }
+// const printMessage = () => {
+//   document.getElementById('show-area').innerHTML = '我被按到了';
+// }
+// const changeName = (newName) => {
+//   name = newName;
+//   console.log("hey")
+// }
+// var name = "舊的名字";
 
 ReactDOM.render(
-	// testFunction(),
-	// <h1> {(showOne == true) ? 1 : 0} </h1>,
-	// <h1 className='title' >Hellow, world!</h1>,
-	// <div>
-	// 	{multiButton()}
-	// </div>,
-	// <div>
-	// 	<button value="true" onClick={getValue}>
-	// 		按下以取得數值
-	// 	</button>
-	// </div>,
-	<div>
-		<App />
-	</div>,
-	document.getElementById('root')
+  // testFunction(),
+  // <h1> {(showOne == true) ? 1 : 0} </h1>,
+  // <h1 className='title' >Hellow, world!</h1>,
+  // <div>
+  // 	{multiButton()}
+  // </div>,
+  // <div>
+  // 	<button value="true" onClick={getValue}>
+  // 		按下以取得數值
+  // 	</button>
+  // </div>,
+  // <div>
+  //   <App name="我的名字" handleCilck={printMessage} />
+  //   <div id="show-area"></div>
+  // </div>,
+  <div>
+    <App />
+  </div>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
